@@ -10,7 +10,7 @@ public class Task2 {
 
     private static void nameChecker() {
         Scanner in = new Scanner(System.in);
-        System.out.print("Input : ");
+        System.out.print("Введите имя: ");
         String name = in.nextLine();
 
         if (name.equals(NAME)) {

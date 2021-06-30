@@ -8,13 +8,13 @@ public class Task1 {
 
     private static void number_7() {
         Scanner in = new Scanner(System.in);
-        System.out.print("Input a number: ");
+        System.out.print("Введите число: ");
         int num = in.nextInt();
 
         if (num > 7) {
             System.out.println("Привет");
         } else {
-            System.out.println("Your number is wrong!");
+            System.out.println("Неправильное число");
             number_7();
         }
         in.close();
