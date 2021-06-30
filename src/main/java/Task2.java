@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Task2 {
 
     static String NAME = "Вячеслав";
@@ -14,7 +13,6 @@ public class Task2 {
         System.out.print("Input : ");
         String name = in.nextLine();
 
-
         if (name.equals(NAME)) {
 
 
@@ -23,7 +21,6 @@ public class Task2 {
             System.out.println("Нет такого имени");
             nameChecker();
         }
-
-
+        in.close();
     }
 }
