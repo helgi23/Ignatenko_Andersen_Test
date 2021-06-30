@@ -14,9 +14,8 @@ public class Task2 {
         String name = in.nextLine();
 
         if (name.equals(NAME)) {
-
-
             System.out.println("Привет, Вячеслав");
+
         } else {
             System.out.println("Нет такого имени");
             nameChecker();
